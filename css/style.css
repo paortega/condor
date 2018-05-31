@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: white;
+	max-width: 1280px;
+	
+}
+
+h2, h3{	
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+}
+
+.logo-left{
+	position:fixed;
+	padding-top:6%;
+}
+
+/* header */
+#cabecera{
+	background: #022929;
+}
+header{
+    height: 20%;
+	margin-top:1%;
+}
+
+#logo{
+
+}
+#navegator{
+	padding-left:1%;
+	padding-top:2%;
+}
+.tab {
+	background: #086363;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	display:inline-block;
+	padding: 1% 4% 1% 4%;
+}
+.tab-dropdown {
+	/*background: #086363;*/
+	display:inline-block;
+	/*padding: 1% 4% 1% 4%;*/
+}
+
+
+.btn {
+	background: #086363;
+    border-radius: 0px;
+    padding: 8px 43px 12px 42px;
+    font-weight: bold;
+}
+.dropdown-toggle{
+	background: #086363;
+	color:white;
+}
+.dropdown-menu{
+	background: #086363;
+	color:white;
+}
+.dropdown-menu > li > a{
+	color:white;
+}
+
+    
+
+
+
+
+
+/* main content */
+#content-index{
+	margin-top:1%;
+}
+#main-content{
+	border: 10px solid #076666;
+	background:#1e3a3a;
+	color:white;
+	height:900px;
+}
+#sidebar{
+	border: 10px solid #055252;
+	background:#022929;
+	color:white;
+	height:900px;
+}
+.menu-sidebar{
+	color:white;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* footer */
+footer{
+	background: #066666;
+	color:white;
+	margin-top:1%;
+}
+.menu-footer > ul > li > a{
+	display:inline-block;
+	float:right;
+	color:white;
+	text-decoration:underline;
+}
+.footer-link{
+	display:inline-block;
+	text-decoration:underline;
+}
+.footer-link > a{
+	color:white;
+}
+
+
+
+@media screen and (min-width: 480px){
+
+}
+
+
+@media screen and (min-width: 767px){
+
+
+
+@media screen and (min-width: 950px){
+}
